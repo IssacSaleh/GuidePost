@@ -16,7 +16,8 @@
 ## Evidence (2026-09-23, real-browser Playwright against the live server)
 
 - **Load:** server bound to `0.0.0.0:3000`, `curl http://localhost:3000/` → **200**; public URL
-  `https://adamsleep-colacanyon-3000.codio.io/` responds.
+  `https://adamsleep-colacanyon-3000.codio.io/` responds (Codio preview). Final deployment:
+  **https://issacsaleh.github.io/GuidePost/** (GitHub Pages) → 200.
 - **Errors:** **0 console errors / 0 pageerrors** in the full launch review and the post-polish re-run.
 - **Contrast:** all 13 audited text/background pairs **≥ 4.5:1** (worst nav-hover 4.91, best 5.98).
 - **Overflow:** **none** at 360 / 390 / 768 / 1024 / 1440 px

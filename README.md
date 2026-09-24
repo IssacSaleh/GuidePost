@@ -8,7 +8,7 @@ hand-picked list of game guides that actually work — no ads, no SEO clutter.
 
 ## Live site
 
-The working preview runs at a temporary Codio URL while it's being developed.
+**https://issacsaleh.github.io/GuidePost/** — deployed from `master` via GitHub Pages.
 
 ## What it does
 
