@@ -64,7 +64,7 @@ This is the six-stage journey from blank canvas to live startup. Each stage buil
 - [ ] Run the 1-Minute Human Test with a peer
 - [ ] Triage feedback and fix the 3 most critical items
 - [x] Commit and push to GitHub
-- [ ] Deploy to GitHub Pages, Vercel, or Netlify
+- [x] Deploy to GitHub Pages, Vercel, or Netlify
 - [ ] Submit: Startup Name, Value Prop, GitHub URL, Public URL
 
 ---
