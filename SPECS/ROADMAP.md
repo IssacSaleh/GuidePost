@@ -61,18 +61,18 @@ This is the six-stage journey from blank canvas to live startup. Each stage buil
 ## Stage 6 — Test, Show, and Ship
 **Goal:** Get real feedback and launch publicly.
 
-- [ ] Run the 1-Minute Human Test with a peer
-- [ ] Triage feedback and fix the 3 most critical items
+- [x] Run the 1-Minute Human Test with a peer
+- [x] Triage feedback and fix the 3 most critical items
 - [x] Commit and push to GitHub
 - [x] Deploy to GitHub Pages, Vercel, or Netlify
-- [ ] Submit: Startup Name, Value Prop, GitHub URL, Public URL
+- [x] Submit: Startup Name, Value Prop, GitHub URL, Public URL
 
 ---
 
 ## Reflection
 **Goal:** Capture what you learned as a founder.
 
-- [ ] Answer the 5 Founder Reflection questions in `build-lab/MISSION.md`
+- [x] Answer the 5 Founder Reflection questions in `build-lab/MISSION.md`
 
 ---
 

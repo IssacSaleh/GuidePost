@@ -275,6 +275,7 @@ A new player searches their game → picks a category (e.g. Bosses) → sees a s
 | 2026-09-23 | Feature spec | Ship without spec vs. write spec after build | Created `SPECS/2026-09-23-landing-page/` (requirements.md, plan.md, validation.md) documenting the landing page as actually built and verified. Marked the feature complete in Section 8. Stage 6 (peer test, commit, deploy) deliberately left open | Done |
 | 2026-09-23 | Hero copy (peer-test follow-up) | Old vague headline vs. who+problem framing | New Hero: **"Stuck on a new game? Here's the guide worth reading."** + sub "GuidePost gives new PC gamers a short, hand-picked list that cuts the clutter — no ads, no SEO junk." Stated the audience (new PC gamers) + problem (clutter) in one glance; tone stays Friendly · Calm · Playful. Colors, navbar, CTA styles, and font hierarchy untouched | Done |
 | 2026-09-23 | Version control + GitHub | No VCS vs. git repo + public remote | Created a git repo in `build-lab/` (branch `main`), first commit "Initial commit: GuidePost landing page". Created **public** GitHub repo `IssacSaleh/GuidePost` and pushed `main` up. Auth: gh CLI as IssacSaleh (re-authed; browser device flow) + `gh auth setup-git` so future pushes use the credential helper | Done |
+| 2026-09-23 | Stage 6 ship | Ship vs. hold | Completed Stage 6: 1-Minute Human Test run via fresh-eyes Playwright against the live URL (clean, no errors); triaged 3 fixes (FAQ nav link, real GitHub footer link, honest empty-state hint); deployed to **GitHub Pages** (`https://issacsaleh.github.io/GuidePost/`) by serving from `master` (default branch renamed `main`→`master`); wrote README + PEER_TEST.md; answered the 5 Reflection questions into Section 9 | Done |
 | 2026-09-23 | One CTA guardrail | Restore single form vs. lift guardrail | **Formally lifted the "one CTA" guardrail.** Approved pattern: one CTA *action* (waitlist) at two conversion moments — Hero + Final CTA. Navbar stays CTA-free. Updated Section 2, Section 6, and the Page Architecture note; `SPECS/MISSION.md` non-negotiables updated to match | Done |
 | 2026-09-23 | Design tokens doc sync | Leave docs stale vs. update | Updated Section 5 to document the shipped AA-safe tokens (primary-deep `#1F7A6F`, primary-dark `#1E6F64`, accent-deep `#A8560F`, on-accent `#3b2a14`, muted `#5F6670`) and the deep-teal primary button, so the notebook matches `style.css`. Also refreshed `SPECS/ROADMAP.md` (current-state now "Stages 1–5 complete", stage boxes checked) and added `og-image.png` to the documented file structure in `SPECS/TECH.md` | Done |
 
@@ -299,4 +300,16 @@ A new player searches their game → picks a category (e.g. Bosses) → sees a s
 - [x] Polish: responsive + UX fixes, hero mock with real game, meta/favicon/logo, honesty cleanup, FAQ
 - [x] Animation polish: staggered card entrances (Features + guides), button hover scale, badge pulse, fixed reduced-motion cascade bug (`body` prefix) and the `.reveal` vs card-transition conflict (switched cards to a `stagger-in` animation)
 - [x] Final visual polish and responsive testing (Stage 5 audit)
-- [x] Landing page feature complete — documented in `SPECS/2026-09-23-landing-page/` (requirements.md, plan.md, validation.md) and verified via Playwright (2026-09-23, see decision log). Stage 6 (human test, commit, deploy) still open.
+- [x] Landing page feature complete — documented in `SPECS/2026-09-23-landing-page/` (requirements.md, plan.md, validation.md) and verified via Playwright (2026-09-23, see decision log). Stage 6 complete (human test, fixes, commit, deploy, submit)
+
+---
+
+## 9. Founder Reflection
+
+*Five questions from the ROADMAP Reflection stage, answered after launch.*
+
+1. **What problem did you solve?** New players can't tell which game guides are worth reading — search pages are full of ads and SEO junk, and good advice is buried in threads. GuidePost solves that with a tiny, hand-picked list per game and category, so players skip the junk and start playing.
+2. **What was the most important decision you made?** Building the landing page first instead of the full tool — it forced everything else to stay simple, honest, and static. A close second: keeping it free and framed as a side project, not a growth machine.
+3. **What AI suggestion did you reject?** OpenCode suggested adding ranking algorithms and personalization for the guides. We rejected that in favor of simple curated lists plus optional community voting later — no algorithm in v1, because a person who finished the game picks better than code.
+4. **What was OpenCode's most useful action?** The real-browser (Playwright) launch review. It caught real bugs that reading code alone missed: the waitlist button actually threw a JS error on submit, the site had horizontal scroll on phones, and some text didn't meet contrast. Fixing those is what "professional" actually means.
+5. **What would you build next?** The real tool — searchable per-game pages with those curated guide lists — plus swapping the mailto waitlist for a real email signup, and seeding more games.
