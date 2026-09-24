@@ -96,10 +96,7 @@ function renderGuides() {
   });
 
   if (filtered.length === 0) {
-    const empty = document.createElement('p');
-    empty.className = 'picker-hint';
-    empty.textContent = 'No guides yet for that combination — try another game or category.';
-    guideList.appendChild(empty);
+    pickerHint.textContent = 'No guides yet for that combination — try another game or category.';
     return;
   }
 
