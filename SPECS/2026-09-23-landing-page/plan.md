@@ -62,8 +62,8 @@ repo. Validation was performed with real-browser Playwright checks (see
 
 - [x] CSS brace balance + JS syntax (no build step; targets `index.html`/`style.css`/`script.js` directly).
 - [x] Playwright checks in `/tmp/opencode/verify/`: console errors, overflow at 360/390/768/1024/1440, contrast, `aria-pressed` toggles, keyboard selection, reduced-motion, single `<h1>`, fonts load, `og-image.png` 200.
-- [ ] Peer 1-Minute Human Test (Stage 6 — **not done**, deferred).
-- [ ] Git commit + deploy to GitHub Pages/Vercel/Netlify (Stage 6 — **not done**, deferred).
+- [x] Peer 1-Minute Human Test (Stage 6 — done via live-URL Playwright, fixes shipped).
+- [x] Git commit + deploy to GitHub Pages, submit, and Founder Reflection (Stage 6 — complete).
 
 ## Future (explicitly deferred, not part of this feature)
 

@@ -6,7 +6,7 @@ This is the six-stage journey from blank canvas to live startup. Each stage buil
 
 ## Current State
 
-> **Stages 1–5 complete.** The landing page is built, launch-reviewed (real-browser audit), and polished in `build-lab/`. `MISSION.md` has the full founder journey + decision log. Remaining: Stage 6 (human test, fix triage, commit, deploy) and the Reflection.
+> **Complete.** The landing page is built, launch-reviewed, polished, peer-tested, and deployed in `build-lab/`. `MISSION.md` has the full founder journey + decision log + Reflection. All six stages and the Reflection are done.
 
 ---
 

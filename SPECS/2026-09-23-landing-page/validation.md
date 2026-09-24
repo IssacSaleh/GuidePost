@@ -47,4 +47,4 @@
 - `build-lab/MISSION.md` — design system, Page Architecture, decision log, Section 8 checklist ✅
 - `SPECS/MISSION.md`, `SPECS/ROADMAP.md`, `SPECS/TECH.md` — constitution updated (guardrail lift, stages 1–5 checked, file structure incl. `og-image.png`) ✅
 - This folder — requirements / plan / validation ✅
-- **Not yet done (Stage 6):** peer human test, Git commit, deployment to a real host.
+- **Done (Stage 6):** peer human test (live-URL Playwright), 3 triaged fixes shipped, Git commit, GitHub Pages deployment, submit, and Founder Reflection. See decision log 2026-09-23.
